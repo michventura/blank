@@ -1,0 +1,76 @@
+/* Tipografía */
+/* @import url("https://fonts.googleapis.com/css2?family="); */
+
+/* Variables */
+:root {
+  --primario: #000000;
+  --secundario: #ffffff;
+  --font-base: sans-serif;
+  --font-headings: inherit; /* Cambiar */
+  --h1: 48px;
+  --h2: 39px;
+  --h3: 31px;
+  --h4: 25px;
+  --h5: 20px;
+  --h6: 16px;
+/*  --transition: all 0.4s ease-in-out; */
+}
+
+/* Base */
+body {
+  font-family: var(--font-base);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-headings);
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+h5 {
+  font-size: var(--h5);
+}
+
+h6 {
+  font-size: var(--h6);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Componentes */
+
+/* Header */
+/*.header{}*/
+
+/* Nav */
+/*.nav{}*/
+
+/* Main */
+/*.main {}*/
+
+/* Footer */
+/*.footer {}*/
+
+/* Utilidades */
+/* TODO */
